@@ -1,0 +1,64 @@
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.link {
+  display: inline-block;
+  text-decoration: none;
+  padding: 12px;
+  font-weight: 500;
+  columns: #2a363b;
+  font-style: 18px;
+}
+
+.activeLinck {
+  composes: link;
+  color: #2196f3;
+}
+
+.film__genres {
+  display: flex;
+}
+
+.genres__item {
+  margin-right: 30px;
+}
+
+.film {
+  display: flex;
+}
+
+.film__img {
+  width: 500px;
+  height: 500px;
+}
+
+.film__div {
+  margin-right: 50px;
+}
+
+.film__cast {
+  width: 50px;
+  height: 150px;
+}
+
+.actors {
+  width: 100px;
+  height: 200px;
+}
+
+.actors__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.actar__item {
+  margin-right: 20px;
+}
+
+.film__load {
+  margin-left: 50px;
+  list-style: outside;
+}
